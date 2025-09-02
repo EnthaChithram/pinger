@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "commonjs",
   "scripts": {
-    "dev": "vite",
+
+    "start":"node pinger.js",
+    "dev": "node pinger.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
