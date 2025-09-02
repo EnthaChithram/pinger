@@ -23,4 +23,4 @@ const interval = setInterval(() => {
       console.log(res);
     });
   });
-}, 100000);
+}, 600000);
