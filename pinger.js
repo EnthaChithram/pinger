@@ -18,7 +18,7 @@ app.get("/alive", async (req, res) => {
 
 const interval = setInterval(() => {
   console.log("started");
-  fetch("http://localhost:3000/ping").then((data) => {
+  fetch("https://movie-server-sdjl.onrender.com/ping").then((data) => {
     data.json().then((res) => {
       console.log(res);
     });
